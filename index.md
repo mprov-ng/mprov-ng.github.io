@@ -1,4 +1,4 @@
-<img align="left" src="assets/mProvLogo.png" />
+<img align="left" src="assets/images/mProvLogo.png" />
 ## mProv
 mProv is an improvised provisioner.  It was born out of the need for a simple, easy to install, and easy to use way of keeping inventory of
 a large number of machines.  mProv was build to be modular, though, so adding new functions to it should be as easy as coding them in python
