@@ -9,4 +9,4 @@ and plugging them in.  <img src="assets/images/cursor_blink.gif" />
 Visit the [Github Page](https://github.com/mprov-ng/) for more information.  Keep checking back here as well, more updates to come! <img src="assets/images/cursor_blink.gif" />
 
 <hr />
-<img align="center" src="assets/images/mpcc-ss.png" />
+[<img align="center" src="assets/images/mpcc-ss.png" />](assets/images/mpcc-ss.png)
