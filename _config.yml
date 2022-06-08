@@ -1,1 +1,5 @@
 theme: jekyll-theme-hacker
+title: mProv
+description: mProv is an improvised provisioner!
+github:
+  is_project_page: false
