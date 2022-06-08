@@ -5,3 +5,5 @@ a large number of machines.  mProv was build to be modular, though, so adding ne
 and plugging them in.  <img src="assets/images/cursor_blink.gif" />
 
 <hr />
+
+Visit the [Github Page](https://github.com/mprov-ng/) for more information.  Keep checking back here as well, more updates to come! <img src="assets/images/cursor_blink.gif" />
