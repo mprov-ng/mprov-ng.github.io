@@ -6,6 +6,11 @@ and plugging them in.  <img src="assets/images/cursor_blink.gif" />
 
 <hr />
 
+The mProv management suite consists of several parts.
+
+- [mProv Control Center](mpcc.md) - The heart and brains of mProv
+- [mProv Job Server](mprov_jobserver.md) - The work horse of mProv
+
 Visit the [Github Page](https://github.com/mprov-ng/) for more information.  Keep checking back here as well, more updates to come! <img src="assets/images/cursor_blink.gif" />
 
 <hr />
