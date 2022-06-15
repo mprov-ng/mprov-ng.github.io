@@ -44,6 +44,6 @@ and plugging them in.  <img src="assets/images/cursor_blink.gif" />
 	- https://raw.githubusercontent.com/mprov-ng/mprov_scripts/master/post-boot/nads.sh as a post-boot script
 
 - Add a System Group for your compute nodes
-- Add a System Image named "__nads__" for the node auto detection system and assign both the scripts you added above.
+- Add a System Image named `__nads__` for the node auto detection system and assign both the scripts you added above.
 - Add a system image for your compute nodes, only add the "install_postboot_jobserver.sh" file
 - Add your nodes, making sure to select the compute image, and in the network, set the hostname, IP and switch port correctly.  If you have LLDP enabled, the nodes can netboot into NADS and will be autodected.  Otherwise, you will need to enter the mac address for each host's management nic
