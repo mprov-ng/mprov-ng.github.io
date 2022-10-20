@@ -50,3 +50,8 @@ Docker images exist for the mPCC as well.  More information on how to use the do
 
 # Post installation
 Once you have the installation installed, it is highly suggested that you create an API Key and get a job server running.
+
+There is also a repository of useful scripts you can upload to the mPCC to run on your systems/images.  Check out our repository here: https://github.com/mprov-ng/mprov_scripts
+
+You can also get your hands on the mProv Admin Shell.  This is a CLI that you can use to talk to the mPCC as well as the UI.  This is handy if you are scripting node ingests and such.
+
