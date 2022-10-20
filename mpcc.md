@@ -20,6 +20,8 @@ The mPCC is based off of django 3.2.  You will need to run a python web app serv
 # Installation
 This installation proceedure assumes that you have a system with at least the "Minimal Install" packages installed.  You can have more than that, but the installer assumes it will have to handle most of the dependancy installaion.
 
+If you are using a database server like MariaDB or PostgreSQL, and we recommend you do for anything other than a small test cluster, you will need that server setup, with an empty DB for mprov, and a user login with permissions to that db.
+
 Before running the installation, you will want to make sure you populate the `env.db` file with the variables for your db configuration you are going to use.  An example is provided, with everything commented out.
 
 Installation is best done by cloning the repository and running `./install_mpcc.sh` as root.  This script takes the following arguments:
@@ -33,7 +35,11 @@ Note: Passing neither `-m` or `-p` will default to an SQLite backend that will b
 
 Example: `./install_mpcc.sh -m` will install the mPCC to the machine it is run on, with all the dependencies, and set it up to run a mariadb back end.  
 
-Once everything is setup, you will want to add the necessary IP and hostnames for the machine to the .env file in /var/www/mprov_control_center/ for the `ALLOWED_HOSTS` variable.  This is a comma separated list of IP's and/or fqdns that mPCC will reply to.  If you skip this step, you will not be able to access mPCC.
+If you are running a firewall, and we suggest you do, the install scripts should spit out some commands to open the ports needed locally.  Consult your network admins for opening the ports through external firewalls.  These are only needed to get access IN to the mPCC, not out.
+
+Once everything is setup, you will want to add the necessary IP and hostnames for the machine to the .env file in /var/www/mprov_control_center/ for the `ALLOWED_HOSTS` variable.  This is a comma separated list of IP's and/or fqdns that mPCC will reply to.  The install scripts may try to guess the entries needed for you, so you should review what is in the generated .env file. If you skip this step, you will not be able to access mPCC.
+
+Have a look at the `.env.example` file in the mPCC top directory.  It will contain other things you can set, for example LDAP auth, if you are using that in your setup.
 
 
 ## Docker
