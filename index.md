@@ -8,6 +8,7 @@ and plugging them in.  <img src="assets/images/cursor_blink.gif" />
 
 The mProv management suite consists of several parts.
 
+- [mProv Overview](mprov_overview.pptx) - A PowerPoint overview of what mProv is.
 - [mProv Control Center](mpcc.md) - The heart and brains of mProv
 - [mProv Job Server](mprov_jobserver.md) - The work horse of mProv
 
