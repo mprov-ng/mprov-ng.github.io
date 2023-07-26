@@ -1,10 +1,3 @@
-[<img align="left" src="assets/images/mProvLogo.png" style="padding: 10px;" />](/)
-# mProv
-mProv is an improvised provisioner.  It was born out of the need for a simple, easy to install, and easy to use way of keeping inventory of
-a large number of machines.  mProv was built to be modular as well, so adding new functions to it should be as easy as coding them in python
-and plugging them in.  <img src="assets/images/cursor_blink.gif" />
-
-<hr />
 
 # mProv Control Center
 The heart of the mProv management suite, the mProv Control Center (mPCC) is the brains behind everything that mProv manages.  It's what runs the web interface, for ease of use.  It runs a REST CRUD API for interfaces to the database and remotely doing stuff.  It manages authentication, jobs to the mprov_jobservers, and serves as a endpoint for serving up files needed for PXE booting and running scripts on nodes post boot.

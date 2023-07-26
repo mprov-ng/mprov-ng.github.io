@@ -1,11 +1,3 @@
-[<img align="left" src="assets/images/mProvLogo.png" style="padding: 10px;" />](/)
-# mProv
-mProv is an improvised provisioner.  It was born out of the need for a simple, easy to install, and easy to use way of keeping inventory of
-a large number of machines.  mProv was built to be modular, though, so adding new functions to it should be as easy as coding them in python
-and plugging them in.  <img src="assets/images/cursor_blink.gif" />
-
-<hr />
-
 # mProv Job Server
 
 The mProv Job server is the work horse behind the scenes of the mPCC.  The job server connects to the mPCC and will run jobs that are queued on the mPCC.  The job server is also responsible for serving images created through the mPCC, as well as running scripts on the images and hosts when they come up.
